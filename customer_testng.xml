@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.learning.utilities.CustomListener"></listener>
+		<listener
+			class-name="com.learning.utilities.ExtentReporterNG"></listener>
+
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="com.learning.testcases.API_Demos.TC_Preference"></class>
+			<!-- <class name="com.learning.testcases.GenApp.TC_MobGestures"> </class> -->
+			<!-- <class name="com.learning.testcases.GenApp.TC_DataProvider"></class> -->
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.learning.utilities.CustomListener"/>
+    <listener class-name="com.learning.utilities.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.learning.testcases.API_Demos.TC_Preference">
+        <methods>
+          <include name="Sprint_ApiDemos_PreferenceValidation"/>
+          <include name="killAllNodes"/>
+          <include name="startAppiumServer"/>
+          <include name="stopServer"/>
+        </methods>
+      </class> <!-- com.learning.testcases.API_Demos.TC_Preference -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

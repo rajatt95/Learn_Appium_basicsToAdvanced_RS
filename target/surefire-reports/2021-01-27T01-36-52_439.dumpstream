@@ -1,0 +1,4 @@
+# Created at 2021-01-27T01:36:54.640
+Boot Manifest-JAR contains absolute paths in classpath 'F:\Work_in_local_machine\Eclipse_2020\Workspace\LearningWS\RS_Appium-Mobile_Automation_Testing_from_Scratch_+_Frameworks\7_AppiumFramework_Native\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
